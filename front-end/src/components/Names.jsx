@@ -29,7 +29,7 @@ function App() {
       <ul>
         {names.map((name,i) => <li key={i}>{name}</li>)}
       </ul>
-    ): "Não há nomes registrados..." }
+    ): "Ops, não há nomes registrados..." }
   </>
 }
 
